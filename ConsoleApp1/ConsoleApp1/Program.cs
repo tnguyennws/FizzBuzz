@@ -9,7 +9,6 @@ namespace ConsoleApp1
             for(int i = 1; i <= 200; i++)
             {
                 Console.Write($"{i} ");
-
                 if(i%3 == 0)
                 {
                     Console.Write("Fizz");
@@ -18,10 +17,8 @@ namespace ConsoleApp1
                 {
                     Console.Write("Buzz");
                 }
-
                 Console.WriteLine("");
             }
-
         }
     }
 }
